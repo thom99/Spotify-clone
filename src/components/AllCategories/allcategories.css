@@ -1,0 +1,39 @@
+.container_card3{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card3{
+    text-align: center;
+    background-color: #292828;
+    padding: 16px;
+    width: 196px;
+    margin: 5px;
+    height: 200px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.card3:hover{
+    cursor: pointer;
+}
+
+.container_card3 .card_name3{
+    letter-spacing: -.04em;
+    color: #fff;
+    font-size: 24px;
+    max-width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.container_card3 .card_image3{
+    width: 65%;
+    height: 65%;
+    margin-left: 90px;
+    margin-top: 30px;
+    transform: rotate(24deg);
+}
